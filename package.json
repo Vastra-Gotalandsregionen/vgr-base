@@ -1,0 +1,12 @@
+{
+  "name": "vgr-base",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "main": "build/base.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "vgr-build-base": "git+ssh://git@bitbucket.org:whitespace_se/vgr-build-base.git"
+  }
+}
