@@ -1,0 +1,17 @@
+/* Typography
+   ========================================================================== */
+
+sub,
+sup {
+	position:relative;
+	height:0;
+	line-height:1;
+	vertical-align:baseline;
+	font-size:0.7rem;
+}
+sup {
+	bottom:1ex;
+}
+sub {
+	top:0.5ex;
+}

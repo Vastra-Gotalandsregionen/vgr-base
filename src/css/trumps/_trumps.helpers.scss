@@ -1,0 +1,36 @@
+/* Helpers
+   ========================================================================== */
+
+/* Clearfix
+ * @see _base.mixins.scss
+ * Include in your CSS using `@extend .clearfix;` or use in your HTML using the
+ * class `clearfix`
+ */
+
+.clearfix {
+	@include clearfix;
+}
+
+
+/* Visually Hidden
+ * @see _base.mixins.scss
+ * Include in your CSS using `@extend .visually-hidden;` or use in your HTML
+ * using the class `visually-hidden`
+ * Extended usage with
+ */
+
+.visually-hidden {
+	@include visually-hidden;
+}
+
+
+/* Visually Hidden Focusable
+ * @see _base.mixins.scss
+ * Include in your CSS using `@extend .visually-hidden;` or use in your HTML
+ * using the class `visually-hidden`
+ * Extended usage with
+ */
+
+.visually-hidden--focusable {
+	@include visually-hidden--focusable;
+}

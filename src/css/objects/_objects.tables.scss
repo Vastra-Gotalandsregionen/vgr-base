@@ -1,0 +1,30 @@
+/* Wrapper
+ *
+ * Extends `<table>` with:
+ *
+ * Table
+ * Zebra
+ * TODO Scrollable
+   ========================================================================== */
+
+/* Zebra */
+.table--zebra {
+	tbody tr:nth-child(odd) {
+		background-color: $primary-color;
+	}
+}
+
+/* Bordered */
+.table--bordered {
+	th,
+	td {
+		border: 1px solid $primary-color;
+	}
+}
+
+/* Hover */
+.table--hover {
+	tbody tr:hover {
+		background: $primary-color;
+	}
+}

@@ -1,3 +1,28 @@
-body {
-	background: red;
-}
+/* Base
+   ========================================================================== */
+
+/* Base */
+ @import 'base/base.normalize';
+ @import 'base/base.variables';
+ @import 'base/base.mixins';
+
+/* Elements */
+@import 'elements/elements.links';
+@import 'elements/elements.typography';
+@import 'elements/elements.forms';
+@import 'elements/elements.media';
+@import 'elements/elements.tables';
+@import 'elements/elements.quotes';
+
+/* Objects */
+@import 'objects/objects.tables.scss';
+@import 'objects/objects.grid.scss';
+@import 'objects/objects.wrapper.scss';
+
+/* Trumps */
+@import 'trumps/trumps.helpers';
+
+/* We want the print CSS to be the last to be included
+ * TODO: Should this be part of base?
+ */
+@import 'base/base.print';
