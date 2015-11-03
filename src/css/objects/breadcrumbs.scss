@@ -1,0 +1,23 @@
+.global-breadcrumbs {
+	font-family: $secondary-font-stack;
+	font-size: 87.5%;
+
+	p {
+		@include visually-hidden;
+	}
+
+	ol {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: inline;
+	}
+
+	li {
+		display: inline;
+
+		&:not(:last-child):after {
+			content: " /";
+		}
+	}
+}

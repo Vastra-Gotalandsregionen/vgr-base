@@ -1,15 +1,16 @@
-/* Blockquote and inline quotes
+/* Elements - Blockquote and inline quotes
    ========================================================================== */
+
 
 /**
  * Set correct opening punctuation on blockquotes depending on language.
- * 1. Open English quotes with left quotation marks.
+ * 1. Open quotes with left quotation marks.
  * 2. Open Swedish quotes with right quotation marks.
  *
  * TODO Add support for more common languages
  */
 
-[lang=en] blockquote {
+blockquote {
 	quotes: "“" "”" "‘" "’" "“" "”"; /* 1 */
 }
 

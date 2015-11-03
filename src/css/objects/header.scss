@@ -1,0 +1,144 @@
+.header {
+	font-family: $secondary-font-stack;
+	font-size: 16px;
+
+	.logo {
+		display: block;
+
+		font-size: 22px;
+
+		a {
+			display: block;
+			background: #313131;
+
+			img {
+				vertical-align: top;
+				margin: 0;
+			}
+		}
+	}
+
+	@if variable-exists(theme-1-primary-color) {
+		$background: $theme-1-primary-color;
+		color: $color-lightest;
+	}
+
+	@if variable-exists(theme-2-primary-color) {
+		$background: $theme-2-primary-color;
+		color: $color-lightest;
+	}
+
+	@if variable-exists(theme-3-primary-color) {
+		$background: $theme-3-primary-color;
+		color: $color-lightest;
+	}
+
+	@if variable-exists(theme-4-primary-color) {
+		$background: $theme-4-primary-color;
+		color: $color-darkest;
+	}
+
+	@if variable-exists(theme-5-primary-color) {
+		$background: $theme-5-primary-color;
+		color: $color-lightest;
+	}
+
+	$background: $primary-text-color !default;
+	background: $background;
+
+	a {
+		color: $color-lightest;
+		text-decoration: none;
+	}
+
+	.navigation {
+
+		nav {
+			margin: 0 auto;
+			max-width: 1440px;
+		}
+
+		@if variable-exists(theme-1-primary-color) {
+			$background: $theme-1-theme-color-dark;
+			color: $color-lightest;
+		}
+
+		@if variable-exists(theme-2-primary-color) {
+			$background: $theme-2-primary-color;
+			color: $color-lightest;
+		}
+
+		@if variable-exists(theme-3-primary-color) {
+			$background: $theme-3-primary-color;
+			color: $color-lightest;
+		}
+
+		@if variable-exists(theme-4-primary-color) {
+			$background: $theme-4-primary-color;
+			color: $color-darkest;
+		}
+
+		@if variable-exists(theme-5-primary-color) {
+			$background: $theme-5-primary-color;
+			color: $color-lightest;
+		}
+
+		$background: $primary-text-color !default;
+		background: $background;
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			margin: 0;
+		}
+
+		@media screen and (min-width: $medium) {
+
+			li {
+				display: inline-block;
+			}
+
+		}
+
+		a {
+			display: block;
+			padding: 10px 20px;
+		}
+
+	}
+
+	[data-selected] {
+
+		@if variable-exists(theme-1-primary-color) {
+			$background: $theme-1-theme-color-darkest;
+			color: $color-lightest;
+		}
+
+		@if variable-exists(theme-2-primary-color) {
+			$background: $theme-2-primary-color;
+			color: $color-lightest;
+		}
+
+		@if variable-exists(theme-3-primary-color) {
+			$background: $theme-3-primary-color;
+			color: $color-lightest;
+		}
+
+		@if variable-exists(theme-4-primary-color) {
+			$background: $theme-4-primary-color;
+			color: $color-darkest;
+		}
+
+		@if variable-exists(theme-5-primary-color) {
+			$background: $theme-5-primary-color;
+			color: $color-lightest;
+		}
+
+			$background: $primary-text-color !default;
+			background: $background;
+	}
+}

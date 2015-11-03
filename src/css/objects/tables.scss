@@ -1,4 +1,4 @@
-/* Wrapper
+/* Objects - Table
  *
  * Extends `<table>` with:
  *
@@ -10,7 +10,7 @@
 /* Zebra */
 .table--zebra {
 	tbody tr:nth-child(odd) {
-		background-color: $primary-color;
+		//background-color: $primary-color-1;
 	}
 }
 
@@ -18,13 +18,13 @@
 .table--bordered {
 	th,
 	td {
-		border: 1px solid $primary-color;
+		//border: 1px solid $primary-color-1;
 	}
 }
 
 /* Hover */
 .table--hover {
 	tbody tr:hover {
-		background: $primary-color;
+		//background: $primary-color-1;
 	}
 }

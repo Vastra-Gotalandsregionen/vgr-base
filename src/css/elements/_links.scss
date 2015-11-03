@@ -1,0 +1,73 @@
+/* Elements - Links
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background color from active links in IE 10.
+ */
+
+a {
+	background-color: transparent; /* 1 (normalize) */
+	text-decoration: underline;
+
+	@if variable-exists(theme-1-primary-color) {
+		$color: $theme-1-primary-color;
+	}
+
+	@if variable-exists(theme-2-primary-color) {
+		$color: $theme-2-primary-color;
+	}
+
+	@if variable-exists(theme-3-primary-color) {
+		$color: $theme-3-primary-color;
+	}
+
+	$color: $primary-text-color !default;
+	color: $color;
+}
+
+
+/**
+ * 1. Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+	outline: 0; /* 1 (normalize) */
+	text-decoration: none;
+
+	$color: $primary-text-color !default;
+	color: darken($color, 30%);
+}
+
+/**
+ * Improve visibility when focused.
+ */
+a:focus {
+	outline: none;
+	text-decoration: none;
+
+	@if variable-exists(theme-1-primary-color) {
+		$background: $theme-1-primary-color;
+		color: #fff;
+	}
+
+	@if variable-exists(theme-2-primary-color) {
+		$background: $theme-2-primary-color;
+		color: #fff;
+	}
+
+	@if variable-exists(theme-3-primary-color) {
+		$background: $theme-3-primary-color;
+		color: #fff;
+	}
+
+	$background: $primary-text-color !default;
+	background-color: $background;
+}
+
+html[lang=sv] a[target="_blank"]:after {
+	content:" (nytt fönster)";
+}
+
+html[lang=en] a[target="_blank"]:after {
+	content:" (new window)"
+}
