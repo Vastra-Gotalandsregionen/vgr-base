@@ -25,13 +25,13 @@ $tiny:                          320px !default;
 $small:                         640px !default;
 $medium:                        768px !default;
 $large:                         1024px !default;
-$extra-large:                   1440px !default;
+$extra-large:                   1560px !default;
 
 /* Grid Settings */
-$max-width: 1170px !default;
+$max-width: 1440px !default;
 $gutter-width: 15px !default;
 
-
+/* Column width */
 $col-1:     8.333%;
 $col-2:     16.667%;
 $col-3:     25%;

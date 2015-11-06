@@ -1,23 +1,27 @@
-.global-breadcrumbs {
-	font-family: $secondary-font-stack;
-	font-size: 87.5%;
+.vgr {
+	&-breadcrumbs {
+		font-family: $secondary-font-stack;
+		font-size: 87.5%;
 
-	p {
-		@include visually-hidden;
-	}
+		p {
+			display: inline;
+			font-weight: 700;
+		}
 
-	ol {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		display: inline;
-	}
+		ol {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: inline;
+		}
 
-	li {
-		display: inline;
+		li {
+			display: inline;
 
-		&:not(:last-child):after {
-			content: " /";
+			&:not(:last-child):after {
+				content: " /";
+			}
 		}
 	}
+
 }
