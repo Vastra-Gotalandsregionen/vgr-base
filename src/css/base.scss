@@ -9,22 +9,21 @@
 /* Elements */
 @import 'elements/links';
 @import 'elements/typography';
-@import 'elements/forms';
 @import 'elements/media';
-@import 'elements/tables';
 @import 'elements/quotes';
 @import 'elements/buttons';
 
 /* Objects */
-@import 'objects/layout.scss';
-@import 'objects/layout-classes.scss';
-@import 'objects/tables.scss';
-@import 'objects/wrapper.scss';
-@import 'objects/block.scss';
-@import 'objects/breadcrumbs.scss';
-@import 'objects/secondary-navigation.scss';
-
-@import 'objects/header.scss';
+@import 'objects/layout';
+@import 'objects/layout-classes';
+@import 'objects/tables';
+@import 'objects/forms';
+@import 'objects/wrapper';
+@import 'objects/block';
+@import 'objects/breadcrumbs';
+@import 'objects/secondary-navigation';
+@import 'objects/messages';
+@import 'objects/header';
 
 /* Trumps */
 @import 'trumps/helpers';
@@ -33,29 +32,3 @@
  * TODO: Should this be part of base?
  */
 @import 'base/print';
-
-
-.grid-demo {
-	.box {
-		font-family: $secondary-font-stack;
-		font-size: 14px;
-		color: blue;
-	}
-
-	.box-large {
-		padding: 40px !important;
-	}
-
-	.row {
-		background: rgba(213, 238, 251, 0.8);
-	}
-
-	.row [class^='col-'] {
-		padding: $gutter-width;
-	}
-	.row [class^='col-'] div {
-		background: rgba(168, 203, 221, 0.8);
-		padding: 5px;
-		text-align: center;
-	}
-}
