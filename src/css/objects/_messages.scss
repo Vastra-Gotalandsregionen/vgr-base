@@ -1,6 +1,32 @@
 /* Objects - Messages
    ========================================================================== */
 
-.vgr-messages {
-	background: red;
+.vgr-message {
+	margin-top: $default-whitespace;
+	padding: $default-whitespace*2;
+	font-family: $secondary-font-stack;
+
+	&__description {
+		margin: 0;
+	}
+
+	&__title {
+		display: block;
+	}
+
+	&--success {
+		background-color: $color-success;
+	}
+
+	&--warning {
+		background-color: $color-warning;
+	}
+
+	&--error {
+		background-color: $color-error;
+	}
+
+	&--info {
+		background-color: $color-info;
+	}
 }

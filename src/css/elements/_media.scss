@@ -13,3 +13,20 @@ img {
 img[height] {
 	height:auto; /* 3 */
 }
+
+.vgr-figure {
+	display: table;
+	margin: 0;
+
+	img {
+		display: block;
+	}
+
+	figcaption {
+		display: table-caption;
+		padding: 1rem;
+		caption-side: bottom;
+		background: $color-lightest-gray;
+		font-family: $secondary-font-stack;
+	}
+}

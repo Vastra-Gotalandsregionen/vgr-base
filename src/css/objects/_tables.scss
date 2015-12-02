@@ -10,9 +10,11 @@
 .vgr-table {
 	width: 100%;
 	font-family: $secondary-font-stack;
+	margin-bottom: $default-whitespace;
 
 	caption {
 		text-align: left;
+		margin-bottom: $default-whitespace;
 	}
 
 	thead {
@@ -28,7 +30,7 @@
 	td,
 	th {
 		vertical-align: top;
-		padding: 0.2rem;
+		padding: 0.3rem;
 	}
 
 	tbody {
@@ -43,44 +45,20 @@
 /* Zebra */
 .vgr-table--zebra {
 	tbody tr:nth-child(odd) {
-		@if variable-exists(theme-1-primary-color) {
-			$background: $theme-1-primary-color;
-		}
-
-		@if variable-exists(theme-2-primary-color) {
-			$background: $theme-2-primary-color;
-		}
-
-		@if variable-exists(theme-3-primary-color) {
-			$background: $theme-3-primary-color;
-		}
-
-		@if variable-exists(theme-4-primary-color) {
-			$background: $theme-4-primary-color;
-		}
-
-		@if variable-exists(theme-5-primary-color) {
-			$background: $theme-5-primary-color;
-		}
-
-		$background: $primary-text-color !default;
-		background: $background;
+		background: $color-lightest-gray;
 	}
 }
 
 
 /* Bordered */
 .vgr-table--bordered {
-	th,
-	td {
-		//border: 1px solid $primary-color-1;
-	}
-}
 
-/* Hover */
-.vgr-table--hover {
-	tbody tr:hover {
-		//background: $primary-color-1;
+	tbody,
+	thead {
+		td,
+		th {
+			border: 1px solid $color-gray;
+		}
 	}
 }
 

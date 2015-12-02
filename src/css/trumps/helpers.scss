@@ -32,3 +32,19 @@
 .vgr-visually-hidden--focusable {
 	@include visually-hidden--focusable;
 }
+
+
+/* Show Content */
+.vgr-show {
+	display: block !important;
+}
+
+/* Hidden Content */
+.vgr-hidden {
+	display: none !important;
+}
+
+/* Invisible Content */
+.invisible {
+	visibility: hidden;
+}

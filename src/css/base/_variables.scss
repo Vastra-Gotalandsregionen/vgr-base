@@ -2,8 +2,8 @@
    ========================================================================== */
 
 /* Fonts */
-$primary-font-stack: Georgia, serif !default;
-$secondary-font-stack: Helvetica, sans-serif !default;
+$primary-font-stack: Times New Roman, Georgia, serif !default;
+$secondary-font-stack: Arial, Helvetica, sans-serif !default;
 
 /* Sizes */
 $base-font-size: 100% !default; /* 16px */
@@ -21,6 +21,7 @@ $h5: $base-font-size * 1.125;
 $h6: $base-font-size;
 
 $gutter: 30px !default;
+$default-whitespace: 15px !default;
 
 /* Colors */
 $primary-text-color: #494746 !default;
@@ -29,6 +30,13 @@ $color-darkest: #000 !default;
 $color-gray: #ccc !default;
 $color-lightest-gray: #eee !default;
 $color-darkest-gray: #999 !default;
+
+
+/* Alert Colors */
+$color-success: #e7f4e4 !default;
+$color-warning: #fff1d2 !default;
+$color-error: #f9dede !default;
+$color-info: #e1f3f8 !default;
 
 
 /* Theme One */
@@ -44,11 +52,11 @@ $vgr-theme-1-theme-cta-color: #47ac1f;
 
 
 /* Breakpoints */
-$tiny:                          320px !default;
-$small:                         640px !default;
-$medium:                        768px !default;
-$large:                         1024px !default;
-$extra-large:                   1560px !default;
+$tiny: 320px !default;
+$small: 640px !default;
+$medium: 768px !default;
+$large: 1024px !default;
+$extra-large: 1560px !default;
 
 /* Grid Settings */
 $max-width: 1200px !default;
