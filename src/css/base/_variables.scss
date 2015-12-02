@@ -4,7 +4,7 @@
 /* Fonts */
 $primary-font-stack: Georgia, serif !default;
 $secondary-font-stack: Helvetica, sans-serif !default;
- 
+
 /* Sizes */
 $base-font-size: 100% !default; /* 16px */
 $base-line-height: 150% !default; /* 24px */
@@ -13,12 +13,35 @@ $base-font-weight: 400 !default;
 
 $small-font-size: 87.5% !default; /* 14px */
 
+$h1: $base-font-size * 2.25;
+$h2: $base-font-size * 1.75;
+$h3: $base-font-size * 1.5;
+$h4: $base-font-size * 1.25;
+$h5: $base-font-size * 1.125;
+$h6: $base-font-size;
+
 $gutter: 30px !default;
 
 /* Colors */
 $primary-text-color: #494746 !default;
 $color-lightest: #fff !default;
 $color-darkest: #000 !default;
+$color-gray: #ccc !default;
+$color-lightest-gray: #eee !default;
+$color-darkest-gray: #999 !default;
+
+
+/* Theme One */
+$vgr-theme-1-primary-color: #005c95;
+$vgr-theme-1-complementary-color: #fabb00;
+
+$vgr-theme-1-theme-color-dark: #094e79;
+$vgr-theme-1-theme-color-darkest: #06304a;
+$vgr-theme-1-theme-color-light: #d7f0ff;
+
+$vgr-theme-1-theme-cta-color: #47ac1f;
+
+
 
 /* Breakpoints */
 $tiny:                          320px !default;
@@ -28,7 +51,7 @@ $large:                         1024px !default;
 $extra-large:                   1560px !default;
 
 /* Grid Settings */
-$max-width: 1440px !default;
+$max-width: 1200px !default;
 $gutter-width: 15px !default;
 
 /* Column width */
