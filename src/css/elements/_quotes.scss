@@ -27,8 +27,8 @@ blockquote p:last-of-type::after {
 
 blockquote {
 	margin: 0;
-}
 
-footer {
-	font-size: $small-font-size;
+	footer {
+		font-size: $small-font-size;
+	}
 }

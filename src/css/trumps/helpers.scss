@@ -4,10 +4,10 @@
 /* Clearfix
  * @see _base.mixins.scss
  * Include in your CSS using `@extend .clearfix;` or use in your HTML using the
- * class `clearfix`
+ * class `vgr-clearfix`
  */
 
-.clearfix {
+.vgr-clearfix {
 	@include clearfix;
 }
 
@@ -15,22 +15,20 @@
 /* Visually Hidden
  * @see _base.mixins.scss
  * Include in your CSS using `@extend .visually-hidden;` or use in your HTML
- * using the class `visually-hidden`
- * Extended usage with
+ * using the class `vgr-visually-hidden`
  */
 
-.visually-hidden {
+.vgr-visually-hidden {
 	@include visually-hidden;
 }
 
 
 /* Visually Hidden Focusable
  * @see _base.mixins.scss
- * Include in your CSS using `@extend .visually-hidden;` or use in your HTML
- * using the class `visually-hidden`
- * Extended usage with
+ * Include in your CSS using `@extend .visually-hidden--focusable;` or use in your HTML
+ * using the class `vgr-visually-hidden--focusable`
  */
 
-.visually-hidden--focusable {
+.vgr-visually-hidden--focusable {
 	@include visually-hidden--focusable;
 }

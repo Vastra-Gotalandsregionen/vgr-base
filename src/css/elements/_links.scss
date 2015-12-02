@@ -1,12 +1,7 @@
 /* Elements - Links
    ========================================================================== */
 
-/**
- * 1. Remove the gray background color from active links in IE 10.
- */
-
 a {
-	background-color: transparent; /* 1 (normalize) */
 	text-decoration: underline;
 
 	@if variable-exists(theme-1-primary-color) {
@@ -25,18 +20,14 @@ a {
 	color: $color;
 }
 
-
-/**
- * 1. Improve readability when focused and also mouse hovered in all browsers.
- */
 a:active,
 a:hover {
-	outline: 0; /* 1 (normalize) */
 	text-decoration: none;
 
 	$color: $primary-text-color !default;
 	color: darken($color, 30%);
 }
+
 
 /**
  * Improve visibility when focused.
@@ -64,6 +55,10 @@ a:focus {
 	background-color: $background;
 }
 
+
+/**
+ * New window message when using target blank.
+ */
 html[lang=sv] a[target="_blank"]:after {
 	content:" (nytt fönster)";
 }

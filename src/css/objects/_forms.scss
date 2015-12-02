@@ -1,0 +1,48 @@
+/* Objects - Table
+ *
+ * Extends `<table>` with:
+ *
+ * Table
+ * Zebra
+ * Bordered
+   ========================================================================== */
+
+.vgr-forms {
+	box-sizing: border-box;
+	border: 1px solid #bfc1c3;
+	background: $color-lightest;
+	margin-bottom: $gutter;
+
+	fieldset {
+		border: 0;
+		padding: 0;
+	}
+
+	legend {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.vgr-forms__item {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.vgr-label {
+		display: block;
+		font-family: $secondary-font-stack;
+	}
+
+	.vgr-input {
+		width: 100%;
+		box-sizing: border-box;
+		font-family: $secondary-font-stack;
+	}
+
+	.vgr-select {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}

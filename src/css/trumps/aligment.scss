@@ -1,14 +1,16 @@
 /* Trumps - Aligmnent
    ========================================================================== */
 
-.align-left {
-
+.vgr-align-left {
+	float: left;
 }
 
-.align-right {
-
+.vgr-align-right {
+	float: right;
 }
 
-.align-center {
-
+.vgr-align-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
