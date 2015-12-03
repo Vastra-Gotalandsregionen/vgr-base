@@ -9,7 +9,7 @@ VGR Base is a CSS and JavaScript framework. It's purpose is to provide consisten
 * [Documentation](#documentation)
 * [Contributing](#contributing)
 * [Versioning](#versioning)
-* [Changelog](#versioning)
+* [Changelog](#changelog)
 * [License](#license)
 
 ## Getting started
