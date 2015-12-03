@@ -5,7 +5,6 @@ VGR Base is a CSS and JavaScript framework. It's purpose is to provide consisten
 ## Table of contents
 
 * [Getting started](#getting-started)
-* [Requirements](#requirements)
 * [Bugs and feature requests](#bugs-and-feature-requests)
 * [Documentation](#documentation)
 * [Contributing](#contributing)
@@ -22,7 +21,7 @@ _TODO_
 _TODO_
 
 ```sh
-$ npm install vgr-base-build
+$ npm install vgr-build-base
 $ npm install vgr-base
 ```
 
