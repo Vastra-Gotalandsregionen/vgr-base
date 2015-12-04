@@ -4,6 +4,7 @@
   "description": "",
   "author": "",
   "license": "CC-BY-SA-4.0",
+  "main": "build/base.js",
   "scripts": {
     "prepublish": "gulp build"
   },
