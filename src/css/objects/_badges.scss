@@ -1,27 +1,33 @@
-/* Objects - Messages
+/* Objects - Badges
    ========================================================================== */
 
-.vgr-message {
-	margin-top: $default-whitespace;
-	padding: $default-whitespace*2;
+.vgr-badge {
 	font-family: $secondary-font-stack;
+	font-style: normal;
 
-	a {
-		color: inherit;
-	}
+	display: inline-block;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
 
-	&__description {
-		margin: 0;
-		overflow: hidden;
-	}
-
-	&__title {
-		display: block;
+	&--default {
+		background-color: $color-default;
+		color: $color-lightest;
 	}
 
 	&--success {
 		background-color: $color-success;
 		color: darken($color-success, 60%);
+	}
+
+	&--primary {
+		background-color: $vgr-theme-1-primary-color;
+		color: $color-lightest;
 	}
 
 	&--warning {
@@ -40,10 +46,9 @@
 	}
 
 	&__icon {
-		float: left;
-		margin-right: $default-whitespace;
 		fill: currentColor;
-		width: 2rem;
-		margin-top: 7px;
+		width: 15px;
+		height: 15px;
+		vertical-align: top;
 	}
 }

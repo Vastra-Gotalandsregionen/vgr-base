@@ -2,16 +2,14 @@
    ========================================================================== */
 
 /* Base */
-@import 'base/normalize';
+@import 'base/reset';
 @import 'base/variables';
 @import 'base/mixins';
 
 /* Elements */
 @import 'elements/links';
 @import 'elements/typography';
-@import 'elements/media';
 @import 'elements/quotes';
-@import 'elements/buttons';
 
 /* Objects */
 @import 'objects/layout';
@@ -22,9 +20,12 @@
 @import 'objects/block';
 @import 'objects/breadcrumbs';
 @import 'objects/secondary-navigation';
-@import 'objects/messages';
 @import 'objects/icons';
 @import 'objects/header';
+@import 'objects/badges';
+@import 'objects/messages';
+@import 'objects/media';
+@import 'objects/buttons';
 
 /* Trumps */
 @import 'trumps/helpers';
