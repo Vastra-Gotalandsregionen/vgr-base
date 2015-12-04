@@ -1,0 +1,48 @@
+/* TODO move from grid when demo is done */
+.grid__item {
+
+	> .block {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		/* Remove all padding from block */
+
+		&--no-space {
+			padding: 0;
+		}
+
+		&--align-top {
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		&--align-top-left {
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+
+		&--align-top-right {
+			justify-content: flex-start;
+			align-items: flex-end;
+		}
+
+		&--align-bottom {
+			justify-content: flex-end;
+			align-items: center;
+		}
+
+
+		&--align-bottom-left {
+			justify-content: flex-end;
+			align-items: flex-start;
+		}
+
+		&--align-bottom-right {
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
+	}
+}

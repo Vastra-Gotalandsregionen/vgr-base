@@ -17,15 +17,19 @@
 @import 'objects/tables';
 @import 'objects/forms';
 @import 'objects/wrapper';
-@import 'objects/block';
-@import 'objects/breadcrumbs';
-@import 'objects/secondary-navigation';
 @import 'objects/icons';
 @import 'objects/header';
 @import 'objects/badges';
 @import 'objects/messages';
 @import 'objects/media';
 @import 'objects/buttons';
+
+
+/* Components */
+@import 'components/_block';
+@import 'components/_breadcrumbs';
+@import 'components/_secondary-navigation';
+
 
 /* Trumps */
 @import 'trumps/_helpers';
