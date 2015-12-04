@@ -611,3 +611,72 @@
 .col.reverse {
 	flex-direction: column-reverse;
 }
+
+
+
+/* Predefined Layouts
+   ========================================================================== */
+.vgr-main {
+	@extend %container;
+}
+
+.vgr-layout-1 {
+	@extend %row;
+
+	.vgr-sidebar {
+		@extend %col;
+		@extend %col-xs-12;
+		@extend %col-sm-4;
+		@extend %col-md-3;
+		@extend %col-lg-3;
+	}
+
+	.vgr-article {
+		@extend %col;
+		@extend %col-xs-12;
+		@extend %col-sm-8;
+		@extend %col-md-9;
+		@extend %col-lg-7;
+	}
+}
+
+
+.vgr-layout-2 {
+	@extend %row;
+
+	.vgr-article {
+		@extend %col;
+		@extend %col-xs-12;
+		@extend %col-sm-10;
+		@extend %col-md-8;
+	}
+}
+
+
+.vgr-layout-3 {
+	@extend %row;
+
+	.vgr-sidebar {
+		@extend %col;
+		@extend %col-xs-12;
+		@extend %col-sm-4;
+		@extend %col-md-4;
+		@extend %col-lg-3;
+	}
+
+	.vgr-article {
+		@extend %col;
+		@extend %col-xs-12;
+		@extend %col-sm-8;
+		@extend %col-md-8;
+		@extend %col-lg-7;
+	}
+
+	.vgr-secondary-sidebar {
+		@extend %col;
+		@extend %col-xs-12;
+		@extend %col-sm-12;
+		@extend %col-md-12;
+		@extend %col-lg-2;
+	}
+}
