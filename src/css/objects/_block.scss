@@ -44,11 +44,5 @@
 			justify-content: flex-end;
 			align-items: flex-end;
 		}
-
-		/* Invert colors */
-		&--dark {
-			background: var(--color-black);
-			color: var(--color-white);
-		}
 	}
 }
