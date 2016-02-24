@@ -3,8 +3,12 @@
 
 .vgr-message {
 	margin-top: $default-whitespace;
-	padding: $default-whitespace*2;
+	padding: $default-whitespace;
 	font-family: $secondary-font-stack;
+
+	@media screen and (min-width: $medium) {
+		padding: $default-whitespace*1.5;
+	}
 
 	a {
 		color: inherit;
