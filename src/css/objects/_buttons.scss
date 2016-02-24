@@ -80,3 +80,13 @@
 		background: darken($background-color, 20%);
 	}
 }
+
+.vgr-button--subtle {
+	background-color: $color-lightest;
+	color: $color-darkest;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
