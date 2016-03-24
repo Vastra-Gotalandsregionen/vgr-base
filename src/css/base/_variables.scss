@@ -40,16 +40,13 @@ $color-error: #f9dede !default;
 $color-info: #e1f3f8 !default;
 
 
-/* Theme One */
-$vgr-theme-1-primary-color: #005c95;
-$vgr-theme-1-complementary-color: #fabb00;
-
-$vgr-theme-1-theme-color-dark: #094e79;
-$vgr-theme-1-theme-color-darkest: #06304a;
-$vgr-theme-1-theme-color-light: #d7f0ff;
-
-$vgr-theme-1-theme-cta-color: #47ac1f;
-
+/* Default Theme */
+$theme-color: #005c95 !default;
+$theme-color-dark: pink !default;
+$theme-color-darkest: orange !default;
+$theme-text-color: $color-lightest !default;
+$theme-link-color: $theme-color !default;
+$theme-focus-color: $color-lightest !default;
 
 /* Breakpoints */
 $tiny: 320px !default;

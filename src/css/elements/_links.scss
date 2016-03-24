@@ -3,29 +3,13 @@
 
 a {
 	text-decoration: underline;
-
-	@if variable-exists(theme-1-primary-color) {
-		$color: $theme-1-primary-color;
-	}
-
-	@if variable-exists(theme-2-primary-color) {
-		$color: $theme-2-primary-color;
-	}
-
-	@if variable-exists(theme-3-primary-color) {
-		$color: $theme-3-primary-color;
-	}
-
-	$color: $primary-text-color !default;
-	color: $color;
+	color: $theme-link-color;
 }
 
 a:active,
 a:hover {
 	text-decoration: none;
-
-	$color: $primary-text-color !default;
-	color: darken($color, 30%);
+	color: darken($theme-text-color, 30%);
 }
 
 /**
@@ -34,24 +18,8 @@ a:hover {
 a:focus {
 	outline: none;
 	text-decoration: none;
-
-	@if variable-exists(theme-1-primary-color) {
-		$background: $theme-1-primary-color;
-		color: #fff;
-	}
-
-	@if variable-exists(theme-2-primary-color) {
-		$background: $theme-2-primary-color;
-		color: #fff;
-	}
-
-	@if variable-exists(theme-3-primary-color) {
-		$background: $theme-3-primary-color;
-		color: #fff;
-	}
-
-	$background: $primary-text-color !default;
-	background-color: $background;
+	color: $theme-focus-color;
+	background-color: $theme-link-color;
 }
 
 
