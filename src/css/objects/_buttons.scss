@@ -4,7 +4,7 @@
 	border-width: 0;
 	border-radius: 2px;
 	background-color: $theme-color;
-	color: $theme-link-color;
+	color: $theme-on-color;
 	text-decoration: none;
 	font-family: $secondary-font-stack;
 	line-height: $base-line-height;
@@ -21,7 +21,8 @@
 
 	&:hover,
 	&:focus {
-		text-decoration: none;
+		background-color: darken($theme-color, 20%);
+		color: $theme-on-color;
 	}
 
 	&--large {
@@ -32,6 +33,17 @@
 	&--small {
 		padding: .25rem .5rem;
 		font-size: 90%;
+	}
+}
+
+.vgr-button--complementary {
+	background-color: $theme-color-complementary;
+	color: $theme-on-color;
+
+	&:hover,
+	&:focus {
+		background-color: darken($theme-color-complementary, 20%);
+		color: $theme-on-color;
 	}
 }
 
