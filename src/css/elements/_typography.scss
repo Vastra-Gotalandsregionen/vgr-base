@@ -2,14 +2,13 @@
    ========================================================================== */
 
 html {
-	font-family: $primary-font-stack;
+	color: $text-color;
 	font-size: $base-font-size;
+	font-family: $primary-font-stack;
 	line-height: $base-line-height;
-	color: $primary-text-color;
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
 	background: #f4f4f4;
 }
 
@@ -20,14 +19,12 @@ ol {
 }
 
 @media screen and (min-width: $large) and (max-width: $extra-large) {
-
 	html {
 		font-size: 1.125rem;
 	}
 }
 
 @media screen and (min-width: $extra-large) {
-
 	html {
 		font-size: 1.25rem;
 	}
@@ -46,9 +43,9 @@ h1 + .vgr-lead {
 
 .vgr-subhead {
 	margin: 0 0 1.25rem;
+	color: lighten($text-color, 20%);
 	font-size: 1.1rem;
 	font-family: $secondary-font-stack;
-	color: lighten($primary-text-color, 20%);
 	line-height: $base-line-height;
 }
 
@@ -61,17 +58,17 @@ sub,
 sup {
 	position: relative;
 	height: 0;
-	line-height: 1;
 	vertical-align: baseline;
 	font-size: 75%;
+	line-height: 1;
 }
 
 sup {
-	bottom:1ex;
+	bottom: 1ex;
 }
 
 sub {
-	top:0.5ex;
+	top: .5ex;
 }
 
 h1,
@@ -80,45 +77,45 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $secondary-font-stack;
 	margin: 1.5rem 0 .5rem;
+	font-family: $secondary-font-stack;
 	line-height: 125%;
 }
 
 h1 {
 	margin: 0 0 1.25rem;
-	font-size: $h1;
 	font-weight: 700;
+	font-size: $h1;
 }
 
 h2 {
 	margin: 2rem 0 .5rem;
-	font-size: $h2;
 	font-weight: 400;
+	font-size: $h2;
 }
 
 h3 {
 	margin: 2rem 0 .5rem;
-	font-size: $h3;
 	font-weight: bold;
+	font-size: $h3;
 }
 
 h4 {
 	margin: 2rem 0 .5rem;
-	font-size: $h4;
 	font-weight: bold;
+	font-size: $h4;
 }
 
 h5 {
 	margin: 2rem 0 .5rem;
-	font-size: $h5;
 	font-weight: bold;
+	font-size: $h5;
 }
 
 h6 {
 	margin: 2rem 0 .5rem;
-	font-size: $h6;
 	font-weight: bold;
+	font-size: $h6;
 }
 
 hr {
@@ -140,7 +137,6 @@ ul {
 }
 
 ol {
-
 	ul {
 		margin: 0;
 	}
@@ -152,50 +148,28 @@ ol {
 
 blockquote {
 	padding: 0 1.25rem;
-
-	@if variable-exists(theme-1-primary-color) {
-		$border-color: $theme-1-primary-color;
-	}
-
-	@if variable-exists(theme-2-primary-color) {
-		$border-color: $theme-2-primary-color;
-	}
-
-	@if variable-exists(theme-3-primary-color) {
-		$border-color: $theme-3-primary-color;
-	}
-
-	@if variable-exists(theme-4-primary-color) {
-		$border-color: $theme-4-primary-color;
-	}
-
-	@if variable-exists(theme-5-primary-color) {
-		$border-color: $theme-5-primary-color;
-	}
-
-	$border-color: $primary-text-color !default;
-	border-left: 4px solid $border-color;
+	border-left: 4px solid $theme-color;
 }
 
 .pullquote {
-	border: 0;
-	padding: 0 1.25rem;
 	margin: 1.25rem 0;
+	padding: 0 1.25rem;
+	border: 0;
+	color: lighten($text-color, 10%);
 	font-style: italic;
-	color: lighten($primary-text-color, 10%);
 
 	@media screen and (min-width: 640px) {
-		padding: 0 1.25rem;
 		margin: 2.5rem 0;
+		padding: 0 1.25rem;
 	}
 }
 
 .article--meta {
 	margin: 2.5rem 0 0;
 	padding: 1.25rem 0;
-	border-top: 1px solid lighten($primary-text-color, 60%);
-	font-family: $secondary-font-stack;
+	border-top: 1px solid lighten($text-color, 60%);
 	font-size: 90%;
+	font-family: $secondary-font-stack;
 }
 
 .vgr {
@@ -208,7 +182,6 @@ blockquote {
 			display: inline;
 		}
 	}
-
 }
 abbr {
 	cursor: help;
@@ -217,19 +190,19 @@ abbr {
 
 .block-list {
 	margin: 1.25rem 0;
-	font-family: $secondary-font-stack;
-	font-size: 80%;
 	padding: 1rem;
-	background: lighten($primary-text-color, 70%);
+	background: lighten($text-color, 70%);
+	font-size: 80%;
+	font-family: $secondary-font-stack;
 
 	.headline {
 		margin: 0;
 	}
 
 	ul {
-		list-style: none;
 		margin: 0;
 		padding: 0;
+		list-style: none;
 	}
 
 	li {
@@ -237,7 +210,7 @@ abbr {
 	}
 
 	li:not(:last-child) {
-		border-bottom: 1px solid lighten($primary-text-color, 60%);
+		border-bottom: 1px solid lighten($text-color, 60%);
 	}
 
 	a {
@@ -246,34 +219,12 @@ abbr {
 }
 
 .article__read-more {
-	font-family: $secondary-font-stack;
 	text-decoration: none;
+	font-family: $secondary-font-stack;
 
 	&:before {
+		color: $theme-color;
 		content: "➧ ";
-
-		@if variable-exists(theme-1-primary-color) {
-			$color: $theme-1-primary-color;
-		}
-
-		@if variable-exists(theme-2-primary-color) {
-			$color: $theme-2-primary-color;
-		}
-
-		@if variable-exists(theme-3-primary-color) {
-			$color: $theme-3-primary-color;
-		}
-
-		@if variable-exists(theme-4-primary-color) {
-			$color: $theme-4-primary-color;
-		}
-
-		@if variable-exists(theme-5-primary-color) {
-			$color: $theme-5-primary-color;
-		}
-
-		$color: $primary-text-color !default;
-		color: $color;
 	}
 }
 .article__inline-list {
@@ -284,37 +235,11 @@ abbr {
 
 .block__info {
 	margin: 1.25rem 0;
-	font-family: $secondary-font-stack;
-	font-size: 80%;
 	padding: 1rem;
 	border-radius: 4px;
-
-	@if variable-exists(theme-1-primary-color) {
-		$background: $theme-1-primary-color;
-		color: $color-lightest;
-	}
-
-	@if variable-exists(theme-2-primary-color) {
-		$background: $theme-2-primary-color;
-		color: $color-lightest;
-	}
-
-	@if variable-exists(theme-3-primary-color) {
-		$background: $theme-3-primary-color;
-		color: $color-lightest;
-	}
-
-	@if variable-exists(theme-4-primary-color) {
-		$background: $theme-4-primary-color;
-	}
-
-	@if variable-exists(theme-5-primary-color) {
-		$background: $theme-5-primary-color;
-		color: $color-lightest;
-	}
-
-	$background: $primary-text-color !default;
-	background-color: $background;
+	background-color: $theme-color;
+	font-size: 80%;
+	font-family: $secondary-font-stack;
 
 	p:last-child {
 		margin-bottom: 0;

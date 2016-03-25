@@ -15,8 +15,8 @@
 	}
 
 	&__description {
-		margin: 0;
 		overflow: hidden;
+		margin: 0;
 	}
 
 	&__title {
@@ -45,9 +45,10 @@
 
 	&__icon {
 		float: left;
-		margin-right: $default-whitespace;
-		fill: currentColor;
-		width: 2rem;
 		margin-top: 7px;
+		margin-right: $default-whitespace;
+		width: 2rem;
+
+		fill: currentColor;
 	}
 }

@@ -19,34 +19,34 @@
 
 	@if variable-exists(theme-1-primary-color) {
 		$background: $theme-1-primary-color;
-		color: $color-lightest;
+		color: $color-white;
 	}
 
 	@if variable-exists(theme-2-primary-color) {
 		$background: $theme-2-primary-color;
-		color: $color-lightest;
+		color: $color-white;
 	}
 
 	@if variable-exists(theme-3-primary-color) {
 		$background: $theme-3-primary-color;
-		color: $color-lightest;
+		color: $color-white;
 	}
 
 	@if variable-exists(theme-4-primary-color) {
 		$background: $theme-4-primary-color;
-		color: $color-darkest;
+		color: $color-black;
 	}
 
 	@if variable-exists(theme-5-primary-color) {
 		$background: $theme-5-primary-color;
-		color: $color-lightest;
+		color: $color-white;
 	}
 
-	$background: $primary-text-color !default;
+	$background: $text-color !default;
 	background: $background;
 
 	a {
-		color: $color-lightest;
+		color: $color-white;
 		text-decoration: none;
 	}
 
@@ -59,30 +59,30 @@
 
 		@if variable-exists(theme-1-primary-color) {
 			$background: $theme-1-theme-color-dark;
-			color: $color-lightest;
+			color: $color-white;
 		}
 
 		@if variable-exists(theme-2-primary-color) {
 			$background: $theme-2-primary-color;
-			color: $color-lightest;
+			color: $color-white;
 		}
 
 		@if variable-exists(theme-3-primary-color) {
 			$background: $theme-3-primary-color;
-			color: $color-lightest;
+			color: $color-white;
 		}
 
 		@if variable-exists(theme-4-primary-color) {
 			$background: $theme-4-primary-color;
-			color: $color-darkest;
+			color: $color-black;
 		}
 
 		@if variable-exists(theme-5-primary-color) {
 			$background: $theme-5-primary-color;
-			color: $color-lightest;
+			color: $color-white;
 		}
 
-		$background: $primary-text-color !default;
+		$background: $text-color !default;
 		background: $background;
 
 		ul {
@@ -114,30 +114,30 @@
 
 		@if variable-exists(theme-1-primary-color) {
 			$background: $theme-1-theme-color-darkest;
-			color: $color-lightest;
+			color: $color-white;
 		}
 
 		@if variable-exists(theme-2-primary-color) {
 			$background: $theme-2-primary-color;
-			color: $color-lightest;
+			color: $color-white;
 		}
 
 		@if variable-exists(theme-3-primary-color) {
 			$background: $theme-3-primary-color;
-			color: $color-lightest;
+			color: $color-white;
 		}
 
 		@if variable-exists(theme-4-primary-color) {
 			$background: $theme-4-primary-color;
-			color: $color-darkest;
+			color: $color-black;
 		}
 
 		@if variable-exists(theme-5-primary-color) {
 			$background: $theme-5-primary-color;
-			color: $color-lightest;
+			color: $color-white;
 		}
 
-			$background: $primary-text-color !default;
+			$background: $text-color !default;
 			background: $background;
 	}
 }

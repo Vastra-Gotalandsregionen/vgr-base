@@ -11,22 +11,22 @@ img {
 	vertical-align: middle; /* 2 */
 }
 img[height] {
-	height:auto; /* 3 */
+	height: auto; /* 3 */
 }
 
 .vgr-figure {
 	display: table;
 	margin: 0;
 
-	img {
+	> img {
 		display: block;
 	}
 
-	figcaption {
+	> figcaption {
 		display: table-caption;
 		padding: 1rem;
+		background: $color-gray-lightest;
 		caption-side: bottom;
-		background: $color-lightest-gray;
 		font-family: $secondary-font-stack;
 	}
 }

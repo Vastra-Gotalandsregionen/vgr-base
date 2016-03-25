@@ -3,7 +3,11 @@
  * Limits width and centers container on page.
    ========================================================================== */
 
-.wrapper {
-	max-width: 1440px;
-	margin: 0 auto;
+.vgr-wrapper {
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: $default-whitespace;
+	padding-left: $default-whitespace;
+	max-width: $max-width;
 }

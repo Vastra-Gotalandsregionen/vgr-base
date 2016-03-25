@@ -1,10 +1,10 @@
 .secondary-navigation {
 	position: relative;
-	border: 1px solid $color-lightest-gray;
+	border: 1px solid $color-gray-lightest;
 	border-radius: 3px;
 	font-family: $secondary-font-stack;
 	word-wrap: break-word;
-	background-color: $color-lightest;
+	background-color: $color-white;
 	margin-bottom: 1.5rem;
 
 	&__header {
@@ -12,7 +12,7 @@
 
 		.headline,
 		a {
-			color: $theme-text-color;
+			color: $theme-color;
 		}
 
 		.headline {

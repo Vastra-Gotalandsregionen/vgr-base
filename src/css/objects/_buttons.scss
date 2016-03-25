@@ -1,11 +1,13 @@
 .vgr-button {
 	display: inline-block;
 	padding: .5rem 1rem;
+	border-width: 0;
 	border-radius: 2px;
-	line-height: $base-line-height;
+	background-color: $theme-color;
+	color: $theme-link-color;
 	text-decoration: none;
 	font-family: $secondary-font-stack;
-	border-width: 0;
+	line-height: $base-line-height;
 
 	.vgr-icon {
 		width: 1em;
@@ -17,42 +19,32 @@
 		padding-left: .5rem;
 	}
 
-	color: $theme-link-color;
-	background-color: $theme-color;
-
 	&:hover,
 	&:focus {
-		$color: $color-lightest !default;
-		color: $color;
 		text-decoration: none;
-		background: darken($background-color, 20%);
 	}
 
 	&--large {
-		font-size: 125%;
 		padding: 1rem 1.5rem;
+		font-size: 125%;
 	}
 
 	&--small {
-		font-size: 90%;
 		padding: .25rem .5rem;
+		font-size: 90%;
 	}
 }
 
 .vgr-button--secondary {
-
 	&:hover,
 	&:focus {
-		$color: $color-lightest !default;
-		color: $color;
 		text-decoration: none;
-		background: darken($background-color, 20%);
 	}
 }
 
 .vgr-button--subtle {
-	background-color: $color-lightest;
-	color: $color-darkest;
+	background-color: $color-white;
+	color: $color-black;
 
 	&:hover,
 	&:focus {

@@ -1,4 +1,4 @@
-/* Trumps - Helpers
+/* Utilities - Helpers
    ========================================================================== */
 
 /* Clearfix
@@ -45,12 +45,12 @@
 }
 
 /* Invisible Content */
-.invisible {
+.vgr-invisible {
 	visibility: hidden;
 }
 
 
-/* Trumps - Aligmnent
+/* Utilities - Aligmnent
    ========================================================================== */
 
 .vgr-align-left {
@@ -63,6 +63,15 @@
 
 .vgr-align-center {
 	display: block;
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* Utilities - Reset
+   ========================================================================== */
+.vgr-list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }

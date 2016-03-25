@@ -1,40 +1,7 @@
-/* Base
+/* Basic styles
    ========================================================================== */
-
-/* Base */
-@import 'base/reset';
-@import 'base/variables';
-@import 'base/mixins';
-
-/* Elements */
-@import 'elements/links';
-@import 'elements/typography';
-@import 'elements/quotes';
-
-/* Objects */
-@import 'objects/layout';
-@import 'objects/layout-classes';
-@import 'objects/tables';
-@import 'objects/forms';
-@import 'objects/wrapper';
-@import 'objects/icons';
-@import 'objects/header';
-@import 'objects/badges';
-@import 'objects/messages';
-@import 'objects/media';
-@import 'objects/buttons';
-
-
-/* Components */
-@import 'components/_block';
-@import 'components/_breadcrumbs';
-@import 'components/_secondary-navigation';
-
-
-/* Trumps */
-@import 'trumps/_helpers';
-
-/* We want the print CSS to be the last to be included
- * TODO: Should this be part of base?
- */
-@import 'base/print';
+@import 'generic/generic';
+@import 'elements/elements';
+@import 'objects/objects';
+@import 'components/components';
+@import 'utilities/utilities';

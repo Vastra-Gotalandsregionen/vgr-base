@@ -2,14 +2,14 @@
    ========================================================================== */
 
 a {
-	text-decoration: underline;
 	color: $theme-link-color;
+	text-decoration: underline;
 }
 
 a:active,
 a:hover {
+	color: darken($theme-link-color, 30%);
 	text-decoration: none;
-	color: darken($theme-text-color, 30%);
 }
 
 /**
@@ -17,9 +17,9 @@ a:hover {
  */
 a:focus {
 	outline: none;
-	text-decoration: none;
-	color: $theme-focus-color;
 	background-color: $theme-link-color;
+	color: $theme-focus-color;
+	text-decoration: none;
 }
 
 
@@ -27,9 +27,9 @@ a:focus {
  * New window message when using target blank.
  */
 html[lang=sv] a[target="_blank"]:after {
-	content:" (nytt fönster)";
+	content: " (nytt fönster)";
 }
 
 html[lang=en] a[target="_blank"]:after {
-	content:" (new window)"
+	content: " (new window)";
 }

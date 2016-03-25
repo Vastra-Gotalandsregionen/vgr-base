@@ -8,35 +8,35 @@
    ========================================================================== */
 
 .vgr-table {
+	margin-bottom: $default-whitespace;
 	width: 100%;
 	font-family: $secondary-font-stack;
-	margin-bottom: $default-whitespace;
 
 	caption {
-		text-align: left;
 		margin-bottom: $default-whitespace;
+		text-align: left;
 	}
 
 	thead {
-		border-bottom: 2px solid $color-gray;
+		border-bottom: 2px solid $color-gray-base;
 
 		th {
+			vertical-align: middle;
 			text-align: left;
 			font-weight: 700;
-			vertical-align: middle;
 		}
 	}
 
 	td,
 	th {
+		padding: .3rem;
 		vertical-align: top;
-		padding: 0.3rem;
 	}
 
 	tbody {
 		td,
 		th {
-			border-bottom: 1px solid $color-lightest-gray;
+			border-bottom: 1px solid $color-gray-lightest;
 		}
 	}
 }
@@ -45,19 +45,18 @@
 /* Zebra */
 .vgr-table--zebra {
 	tbody tr:nth-child(odd) {
-		background: $color-lightest-gray;
+		background: $color-gray-lightest;
 	}
 }
 
 
 /* Bordered */
 .vgr-table--bordered {
-
 	tbody,
 	thead {
 		td,
 		th {
-			border: 1px solid $color-gray;
+			border: 1px solid $color-gray-base;
 		}
 	}
 }

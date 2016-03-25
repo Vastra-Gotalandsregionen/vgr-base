@@ -4,15 +4,15 @@
    ========================================================================== */
 
 .vgr-form {
-	margin-bottom: $gutter;
-	background: $color-lightest;
 	box-sizing: border-box;
+	margin-bottom: $gutter;
+	background: $color-white;
 
 	fieldset {
-		width: 100%;
-		padding: 0;
-		border: 0;
 		box-sizing: border-box;
+		padding: 0;
+		width: 100%;
+		border: 0;
 	}
 
 
@@ -22,10 +22,10 @@
 	}
 
 	&__label {
-		font-weight: 700;
 		display: block;
-		font-family: $secondary-font-stack;
+		font-weight: 700;
 		font-size: $small-font-size;
+		font-family: $secondary-font-stack;
 	}
 
 	&__input[type="search"] {
@@ -34,21 +34,21 @@
 
 	&__input,
 	&__textarea {
-		font-size: 16px;
-		width: 100%;
 		box-sizing: border-box;
-		font-family: $secondary-font-stack;
-		background: $color-lightest;
-		color: $color-darkest;
 		padding: .625rem .75rem;
+		width: 100%;
 		border-width: 1px;
 		border-style: solid;
-		border-color: rgba(0, 0, 0, 0.2)
+		border-color: rgba(0, 0, 0, .2);
+		background: $color-white;
+		color: $color-black;
+		font-size: 16px;
+		font-family: $secondary-font-stack;
 	}
 
 	&__select {
-		width: 100%;
 		box-sizing: border-box;
+		width: 100%;
 	}
 
 	&__item {
@@ -56,8 +56,8 @@
 		margin-bottom: 1rem;
 
 		&--warning {
-			color: darken($color-warning, 60%);
 			background: $color-warning;
+			color: darken($color-warning, 60%);
 
 			.vgr-form__label {
 				color: darken($color-warning, 60%);
@@ -70,8 +70,8 @@
 		}
 
 		&--error {
-			color: darken($color-error, 60%);
 			background: $color-error;
+			color: darken($color-error, 60%);
 
 			.vgr-form__label {
 				color: darken($color-error, 60%);
@@ -84,8 +84,8 @@
 		}
 
 		&--success {
-			color: darken($color-success, 60%);
 			background: $color-success;
+			color: darken($color-success, 60%);
 
 			.vgr-form__label {
 				color: darken($color-success, 60%);
