@@ -1,0 +1,37 @@
+.card {
+	margin-bottom: $default-whitespace*2;
+	font-size: .9rem;
+	line-height: 1.4;
+	box-sizing: border-box;
+	font-family: $secondary-font-stack;
+	word-wrap: break-word;
+
+	&__generic-body {
+		border: 1px solid $color-gray-lighter;
+		background: $color-white;
+	}
+
+	&__inner-row {
+		margin: 0;
+		padding: $default-whitespace;
+	}
+
+	&__header {
+		position: relative;
+		margin-bottom: $default-whitespace/2;
+		padding-bottom: $default-whitespace/2;;
+		border-bottom: 2px solid $theme-color;
+	}
+
+	&__heading {
+		font-size: 1.3rem;
+		margin: 0;
+
+		.vgr-icon {
+			width: 24px;
+			height: 24px;
+			position: relative;
+			top: 4px;
+		}
+	}
+}

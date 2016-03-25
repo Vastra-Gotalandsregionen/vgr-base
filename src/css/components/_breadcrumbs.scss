@@ -1,29 +1,36 @@
-.vgr {
-	&-breadcrumbs {
-		font-family: $secondary-font-stack;
-		font-size: 87.5%;
-        padding-top:0.5rem;
-        padding-bottom:0.5rem;
+.vgr-breadcrumbs {
+	font-family: $secondary-font-stack;
+	font-size: 87.5%;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
 
-		p {
-			display: inline;
-			font-weight: 700;
-		}
+	&__description {
+		display: inline;
+		font-weight: 700;
+	}
 
-		ol {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			display: inline;
-		}
+	&__list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: inline;
+	}
 
-		li {
-			display: inline;
+	&__list-item {
+		display: inline;
 
-			&:not(:last-child):after {
-				content: " /";
-			}
+		&:not(:last-child):after {
+			color:  $text-color;
+			content: " /";
 		}
 	}
 
+	&__list-link:not(span) {
+		color: $theme-color;
+		text-decoration: underline;
+
+		&:hover {
+			color: $text-color;
+		}
+	}
 }
