@@ -1,11 +1,11 @@
 .secondary-navigation {
 	position: relative;
+	margin-bottom: 1.5rem;
 	border: 1px solid $color-gray-lightest;
 	border-radius: 3px;
-	font-family: $secondary-font-stack;
-	word-wrap: break-word;
 	background-color: $color-white;
-	margin-bottom: 1.5rem;
+	word-wrap: break-word;
+	font-family: $secondary-font-stack;
 
 	&__header {
 		background-color: $theme-color;
@@ -43,9 +43,9 @@
 		li {
 			margin: 0;
 			border-top: 1px solid #ddd;
-				&:first-child {
-					border-top:none;
-				}
+			&:first-child {
+				border-top: none;
+			}
 		}
 
 		li li a {
@@ -67,9 +67,9 @@
 
 		[data-hasChildren]:after,
 		[data-isExpanded]:after {
-			content: "▶";
 			position: absolute;
 			right: 10px;
+			content: "▶";
 		}
 		[data-isExpanded]:after {
 			content: "▼";

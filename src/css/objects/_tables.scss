@@ -10,9 +10,9 @@
 .vgr-table {
 	margin-bottom: $default-whitespace;
 	width: 100%;
-	font-family: $secondary-font-stack;
 	border-collapse: collapse;
 	background: $color-white;
+	font-family: $secondary-font-stack;
 
 	caption {
 		margin-bottom: $default-whitespace;
@@ -23,11 +23,11 @@
 		border-bottom: 2px solid $color-gray-base;
 
 		th {
+			background-color: $theme-color;
+			color: $theme-on-color;
 			vertical-align: middle;
 			text-align: left;
 			font-weight: 700;
-			background-color: $theme-color;
-			color: $theme-on-color;
 		}
 	}
 

@@ -1,8 +1,12 @@
 .vgr-footer {
-	padding: 2rem;
 	margin-top: 1rem;
-	font-family: $secondary-font-stack;
-	text-align: center;
+	padding: 2rem;
 	background: $theme-color;
 	color: $theme-on-color;
+	text-align: center;
+	font-family: $secondary-font-stack;
+
+	a {
+		color: $theme-on-color;
+	}
 }
