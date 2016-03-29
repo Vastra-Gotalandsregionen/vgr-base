@@ -11,6 +11,8 @@
 	margin-bottom: $default-whitespace;
 	width: 100%;
 	font-family: $secondary-font-stack;
+	border-collapse: collapse;
+	background: $color-white;
 
 	caption {
 		margin-bottom: $default-whitespace;
@@ -24,6 +26,8 @@
 			vertical-align: middle;
 			text-align: left;
 			font-weight: 700;
+			background-color: $theme-color;
+			color: $theme-on-color;
 		}
 	}
 
