@@ -34,6 +34,18 @@
 		padding: .25rem .5rem;
 		font-size: 90%;
 	}
+
+	&--inactive {
+		cursor: not-allowed;
+		background-color: $color-gray-lightest;
+		color: $color-black;
+
+		&:hover,
+		&:focus {
+			background-color: $color-gray-lightest;
+			color: $color-black;
+		}
+	}
 }
 
 .vgr-button--complementary {
