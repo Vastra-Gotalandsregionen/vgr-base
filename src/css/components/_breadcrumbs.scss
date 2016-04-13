@@ -19,7 +19,7 @@
 	&__list-item {
 		display: inline;
 
-		&:not(:last-child):after {
+		&:not(:last-child)::after {
 			color: $text-color;
 			content: " /";
 		}

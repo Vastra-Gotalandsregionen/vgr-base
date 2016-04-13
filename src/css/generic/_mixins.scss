@@ -7,7 +7,8 @@
  */
 
 @mixin clearfix {
-	&:after {
+
+	&::after {
 		display: table;
 		clear: both;
 		content: "";
@@ -38,6 +39,7 @@
  */
 
 @mixin visually-hidden--focusable {
+
 	&:active,
 	&:focus {
 		position: static;

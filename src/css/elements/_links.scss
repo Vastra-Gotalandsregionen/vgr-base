@@ -26,10 +26,10 @@ a:focus {
 /**
  * New window message when using target blank.
  */
-html[lang=sv] a[target="_blank"]:after {
+html[lang=sv] a[target="_blank"]::after {
 	content: " (nytt fönster)";
 }
 
-html[lang=en] a[target="_blank"]:after {
+html[lang=en] a[target="_blank"]::after {
 	content: " (new window)";
 }
