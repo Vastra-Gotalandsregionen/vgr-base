@@ -155,106 +155,94 @@
 @media screen and (min-width: $small) {
 	.col-sm-1 {
 		width: $col-1;
-		flex-basis: $col-1;
 	}
 
 	.col-sm-2 {
 		width: $col-2;
-		flex-basis: $col-2;
 	}
 
 	.col-sm-3 {
 		width: $col-3;
-		flex-basis: $col-3;
 	}
 
 	.col-sm-4 {
-		width: 33.333%;
-		flex-basis: $col-4;
+		width: $col-4;
 	}
 
 	.col-sm-5 {
-		width: 41.667%;
-		flex-basis: $col-5;
+		width: $col-5;
 	}
 
 	.col-sm-6 {
-		width: 50%;
-		flex-basis: $col-6;
+		width: $col-6;
 	}
 
 	.col-sm-7 {
-		width: 58.333%;
-		flex-basis: $col-7;
+		width: $col-7;
 	}
 
 	.col-sm-8 {
 		width: $col-8;
-		flex-basis: $col-8;
 	}
 
 	.col-sm-9 {
-		width: 75%;
-		flex-basis: 75%;
+		width: $col-9;
 	}
 
 	.col-sm-10 {
-		width: 83.333%;
-		flex-basis: 83.333%;
+		width: $col-10;
 	}
 
 	.col-sm-11 {
-		width: 91.667%;
-		flex-basis: 91.667%;
+		width: $col-11;
 	}
 
 	.col-sm-12 {
 		width: 100%;
-		flex-basis: 100%;
 	}
 
 	.col-sm-offset-1 {
-		margin-left: 8.333%;
+		margin-left: $col-1;
 	}
 
 	.col-sm-offset-2 {
-		margin-left: 16.667%;
+		margin-left: $col-2;
 	}
 
 	.col-sm-offset-3 {
-		margin-left: 25%;
+		margin-left: $col-3;
 	}
 
 	.col-sm-offset-4 {
-		margin-left: 33.333%;
+		margin-left: $col-4;
 	}
 
 	.col-sm-offset-5 {
-		margin-left: 41.667%;
+		margin-left: $col-5;
 	}
 
 	.col-sm-offset-6 {
-		margin-left: 50%;
+		margin-left: $col-6;
 	}
 
 	.col-sm-offset-7 {
-		margin-left: 58.333%;
+		margin-left: $col-1;
 	}
 
 	.col-sm-offset-8 {
-		margin-left: 66.667%;
+		margin-left: $col-8;
 	}
 
 	.col-sm-offset-9 {
-		margin-left: 75%;
+		margin-left: $col-9;
 	}
 
 	.col-sm-offset-10 {
-		margin-left: 83.333%;
+		margin-left: $col-10;
 	}
 
 	.col-sm-offset-11 {
-		margin-left: 91.667%;
+		margin-left: $col-11;
 	}
 
 	.start-sm {
@@ -303,107 +291,95 @@
 
 @media screen and (min-width: $medium) {
 	.col-md-1 {
-		width: 8.333%;
-		flex-basis: 8.333%;
+		width: $col-1;
 	}
 
 	.col-md-2 {
-		width: 16.667%;
-		flex-basis: 16.667%;
+		width: $col-2;
 	}
 
 	.col-md-3 {
 		width: $col-3;
-		flex-basis: $col-3;
 	}
 
 	.col-md-4 {
-		width: 33.333%;
-		flex-basis: $col-4;
+		width: $col-4;
 	}
 
 	.col-md-5 {
-		width: 41.667%;
-		flex-basis: $col-5;
+		width: $col-5;
 	}
 
 	.col-md-6 {
-		width: 50%;
-		flex-basis: $col-6;
+		width: $col-6;
 	}
 
 	.col-md-7 {
-		width: 58.333%;
-		flex-basis: $col-7;
+		width: $col-7;
 	}
 
 	.col-md-8 {
-		width: 66.667%;
-		flex-basis: $col-8;
+		width: $col-8;
 	}
 
 	.col-md-9 {
-		width: 75%;
-		flex-basis: 75%;
+		width: $col-9;
 	}
 
 	.col-md-10 {
-		width: 83.333%;
-		flex-basis: 83.333%;
+		width: $col-10;
 	}
 
 	.col-md-11 {
-		width: 91.667%;
-		flex-basis: 91.667%;
+		width: $col-11;
 	}
 
 	.col-md-12 {
-		width: 100%;
-		flex-basis: 100%;
+		width: $col-12;
 	}
 
 	.col-md-offset-1 {
-		margin-left: 8.333%;
+		margin-left: $col-1;
 	}
 
 	.col-md-offset-2 {
-		margin-left: 16.667%;
+		margin-left: $col-2;
 	}
 
 	.col-md-offset-3 {
-		margin-left: 25%;
+		margin-left: $col-3;
 	}
 
 	.col-md-offset-4 {
-		margin-left: 33.333%;
+		margin-left: $col-4;
 	}
 
 	.col-md-offset-5 {
-		margin-left: 41.667%;
+		margin-left: $col-5;
 	}
 
 	.col-md-offset-6 {
-		margin-left: 50%;
+		margin-left: $col-6;
 	}
 
 	.col-md-offset-7 {
-		margin-left: 58.333%;
+		margin-left: $col-1;
 	}
 
 	.col-md-offset-8 {
-		margin-left: 66.667%;
+		margin-left: $col-8;
 	}
 
 	.col-md-offset-9 {
-		margin-left: 75%;
+		margin-left: $col-9;
 	}
 
 	.col-md-offset-10 {
-		margin-left: 83.333%;
+		margin-left: $col-10;
 	}
 
 	.col-md-offset-11 {
-		margin-left: 91.667%;
+		margin-left: $col-11;
 	}
 
 	.start-md {
@@ -452,107 +428,95 @@
 
 @media screen and (min-width: $large) {
 	.col-lg-1 {
-		width: 8.333%;
-		flex-basis: 8.333%;
+		width: $col-1;
 	}
 
 	.col-lg-2 {
-		width: 16.667%;
-		flex-basis: 16.667%;
+		width: $col-2;
 	}
 
 	.col-lg-3 {
 		width: $col-3;
-		flex-basis: $col-3;
 	}
 
 	.col-lg-4 {
-		width: 33.333%;
-		flex-basis: $col-4;
+		width: $col-4;
 	}
 
 	.col-lg-5 {
-		width: 41.667%;
-		flex-basis: $col-5;
+		width: $col-5;
 	}
 
 	.col-lg-6 {
-		width: 50%;
-		flex-basis: $col-6;
+		width: $col-6;
 	}
 
 	.col-lg-7 {
-		width: 58.333%;
-		flex-basis: $col-7;
+		width: $col-1;
 	}
 
 	.col-lg-8 {
-		width: 66.667%;
-		flex-basis: $col-8;
+		width: $col-8;
 	}
 
 	.col-lg-9 {
-		width: 75%;
-		flex-basis: 75%;
+		width: $col-9;
 	}
 
 	.col-lg-10 {
-		width: 83.333%;
-		flex-basis: 83.333%;
+		width: $col-10;
 	}
 
 	.col-lg-11 {
-		width: 91.667%;
-		flex-basis: 91.667%;
+		width: $col-11;
 	}
 
 	.col-lg-12 {
 		width: 100%;
-		flex-basis: 100%;
 	}
 
 	.col-lg-offset-1 {
-		margin-left: 8.333%;
+		margin-left: $col-1;
 	}
 
 	.col-lg-offset-2 {
-		margin-left: 16.667%;
+		margin-left: $col-2;
 	}
 
 	.col-lg-offset-3 {
-		margin-left: 25%;
+		margin-left: $col-3;
 	}
 
 	.col-lg-offset-4 {
-		margin-left: 33.333%;
+		margin-left: $col-4;
 	}
 
 	.col-lg-offset-5 {
-		margin-left: 41.667%;
+		margin-left: $col-5;
 	}
 
 	.col-lg-offset-6 {
-		margin-left: 50%;
+		margin-left: $col-6;
 	}
 
 	.col-lg-offset-7 {
-		margin-left: 58.333%;
+		margin-left: $col-1;
 	}
 
 	.col-lg-offset-8 {
-		margin-left: 66.667%;
+		margin-left: $col-8;
 	}
 
 	.col-lg-offset-9 {
-		margin-left: 75%;
+		margin-left: $col-9;
 	}
 
 	.col-lg-offset-10 {
-		margin-left: 83.333%;
+		margin-left: $col-10;
 	}
 
 	.col-lg-offset-11 {
-		margin-left: 91.667%;
+		margin-left: $col-11;
 	}
 
 	.start-lg {
